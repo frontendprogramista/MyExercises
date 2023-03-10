@@ -1,0 +1,17 @@
+body {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vw;
+}
+
+.image {
+  background-color: white;
+  width: 550px;
+  height: 550px;
+}
+
+.description {
+  background-color: red;s
+  width: 50%;
+  float: right;
+}
