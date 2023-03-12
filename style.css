@@ -99,3 +99,7 @@ img {
   justify-content: flex-start;
   margin-right: 10px;
 }
+
+.link {
+  color: white;
+}
