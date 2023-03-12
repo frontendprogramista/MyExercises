@@ -1,17 +1,101 @@
 body {
-  background-color: aqua;
+  background-color: hsl(26, 40%, 92%);
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.picturefit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
 }
 
 .image {
-  background-color: white;
-  width: 550px;
-  height: 550px;
+  width: 290px;
+  height: 420px;
 }
 
 .description {
-  background-color: red;s
-  width: 50%;
-  float: right;
+  width: 290px;
+  height: 420px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.perfume {
+  font-size: 12px;
+  font-family: "Lato", serif;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: hsl(228, 2%, 55%);
+  margin: 25px 30px 10px 30px;
+}
+
+.gabrielle {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Fraunces", serif;
+  margin: 15px 30px 10px 30px;
+}
+
+.floral {
+  font-size: 14px;
+  font-family: "Lato", serif;
+  color: hsl(228, 2%, 55%);
+  margin: 15px 10px 10px 30px;
+}
+
+.price {
+  display: flex;
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  color: hsl(158, 36%, 37%);
+  margin: 30px 10px 10px 30px;
+}
+
+.cart {
+  display: flex;
+  align-self: center;
+  font-family: "lato", serif;
+  font-weight: bolder;
+  flex-direction: row-reverse;
+}
+
+.oldprice {
+  font-size: 12px;
+  font-weight: lighter;
+  color: hsl(228, 2%, 55%);
+  text-decoration-line: line-through;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.button {
+  width: 230px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 30px 10px 10px 30px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 8px;
+}
+
+img {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
 }
